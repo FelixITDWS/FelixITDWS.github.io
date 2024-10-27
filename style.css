@@ -1,32 +1,26 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100dvh;
-    width: 100dvw;
-    background-image: url('images/background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
+@import url(https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif+TC&amp;display=swap);
+
+.row {
+    margin: unset;
 }
-.card {
-    background-color: #ffffff8a;
-    backdrop-filter: saturate(180%) blur(20px);
-    width: 300px;
-    border: none;
-    border-radius: 30px;
-    padding: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+@font-face {
+    font-family: '辰宇落雁';
+    src: local('ChenYuluoyan-Thin-Monospaced'),
+      url(/fonts/ChenYuluoyan-Thin-Monospaced.woff) format("woff"),
+      url(/fonts/ChenYuluoyan-Thin-Monospaced.ttf) format("truetype")
 }
-.img {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
+
+@font-face {
+    font-family: 'SetoFont';
+    src: local('SetoFont'),
+    url(/fonts/SetoFont.woff) format("woff"),
+    url(/fonts/SetoFont.ttf) format("truetype")
 }
-.name {
-    font-weight: bold;
-}
-.job {
-    font-style: italic;
-}  
+
