@@ -48,3 +48,34 @@
         </div>
     </div>
 </template>
+
+
+<style lang = "scss">
+    body {
+    font-family: 'SetoFont', 'Noto Serif TC', sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(http://www.nemomofan.com/images/bg.png);
+    }
+    
+    #bg-opacity {
+    background-color: #ffffffa0;
+    min-height: 100vh;
+    }
+    
+    #out-tab {
+    background-color: bisque;
+    position: relative;
+    padding: 3px 1vw;
+    }
+    
+    #broad {
+    padding: 50px;
+    margin: 10px;
+    background-color: #ff8e8ea0;
+    border-radius: 5rem;
+    font-size: 36px;
+    text-align: center;
+    }
+</style>
