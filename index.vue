@@ -36,7 +36,7 @@
             <h1>玥華Getsuka</h1>
             <div class = "d-flex justify-content-center">
                 <img src = "images/Getsuka.jpg">
-                <div style = "min-width: 800px; max-width: 50vw; padding: 0px 100px;">\
+                <div style = "min-width: 800px; max-width: 50vw; padding: 0px 100px;">
                     <p><br><br>
                         玥華です！<br>
                         是隻世界上最聰明的金魚！<br>
@@ -56,7 +56,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-image: url(http://www.nemomofan.com/images/bg.png);
+    background-image: url();
     }
     
     #bg-opacity {
