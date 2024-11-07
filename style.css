@@ -28,8 +28,14 @@ body {
 
 .dropdown {
     margin: auto;
+    border-radius: 4rem;
 }
 
- .dropdown + .dropdown {
+.dropdown + .dropdown {
     margin-left: 10px;
- }
+}
+
+.btn-secondary {
+    background-color: #f59342;
+    border: none;
+}
