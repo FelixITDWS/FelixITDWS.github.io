@@ -26,6 +26,10 @@ body {
     text-align: center;
 }
 
+.dropdown {
+    margin: auto;
+}
+
  .dropdown + .dropdown {
     margin-left: 10px;
  }
